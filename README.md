@@ -6,17 +6,14 @@ This Unity Editor tool automates the extraction and organization of VRC PhysBone
 Includes physbones and colliders as child containers.
 
 📂 Example Hierarchy
+<pre>
 AvatarRoot (with VRCAvatarDescriptor)
-
 └── Dynamics
-
     ├── physbones
-    
     │   └── Hair_PhysBone
-    
     └── colliders
-    
         └── Shoulder_Collider
+</pre>
         
 🛠 How to Use
 Place the script inside an Editor folder in your Unity project.
