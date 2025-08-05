@@ -47,7 +47,7 @@ public class PhysBoneExtractor : EditorWindow
             var rootProp = so.FindProperty("rootTransform");
             if (rootProp != null && rootProp.objectReferenceValue == null)
             {
-                rootProp.objectReferenceValue = original.transform.parent;
+                rootProp.objectReferenceValue = original.transform;
                 so.ApplyModifiedProperties();
             }
 
@@ -78,7 +78,7 @@ public class PhysBoneExtractor : EditorWindow
             var rootProp = so.FindProperty("rootTransform");
             if (rootProp != null && rootProp.objectReferenceValue == null)
             {
-                rootProp.objectReferenceValue = original.transform.parent;
+                rootProp.objectReferenceValue = original.transform;
                 so.ApplyModifiedProperties();
             }
 
