@@ -7,10 +7,15 @@ Includes physbones and colliders as child containers.
 
 📂 Example Hierarchy
 AvatarRoot (with VRCAvatarDescriptor)
+
 └── Dynamics
+
     ├── physbones
+    
     │   └── Hair_PhysBone
+    
     └── colliders
+    
         └── Shoulder_Collider
         
 🛠 How to Use
